@@ -12,6 +12,7 @@ import {
 } from '@chakra-ui/react'
 import { useEffect, useState } from 'react'
 import { NavBar } from '../../components/nav-bar/nav-bar-comp'
+const BASE_SERVER_URL = 'http://localhost:3333'
 
 
 export const Home = () => {
@@ -37,7 +38,7 @@ const RenderProducts = () => {
   const [products, setProducts] = useState([])
 
   useEffect(() => {
-    axios.get('http://localhost:3333/products')
+    axios.get(`${BASE_SERVER_URL}/products`)
       .then(response => {
         console.log(response.data.response)
         setProducts(response.data.response)
