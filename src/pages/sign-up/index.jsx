@@ -90,9 +90,6 @@ const LoginHeader = () => {
       </Box>
       <Box textAlign='center' mt={6}>
         <Heading>Free Market</Heading>
-        <Text color={`${VARIANT_COLOR}.500`}>
-          Faça login e comece a usar
-        </Text>
       </Box>
     </Box>
   )
@@ -136,7 +133,7 @@ const LoginForm = () => {
 
 
         <a href='/home'>
-          <Button colorScheme={VARIANT_COLOR} width='full' mt={4}>
+          <Button colorScheme={VARIANT_COLOR} width='full' mt={8}>
             Confirmar cadastro
           </Button>
         </a>
