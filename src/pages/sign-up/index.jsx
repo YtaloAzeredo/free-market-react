@@ -114,7 +114,7 @@ const LoginForm = () => {
           <FormLabel>Seu telefone</FormLabel>
           <InputGroup>
             <InputLeftElement pointerEvents='none' children={<PhoneIcon />} />
-            <Input type='email' placeholder='Digite seu e-mail' />
+            <Input type='email' placeholder='Digite seu número de telefone' />
           </InputGroup>
         </FormControl>
 
