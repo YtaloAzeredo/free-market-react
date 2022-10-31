@@ -12,8 +12,7 @@ import {
 } from '@chakra-ui/react'
 import { useEffect, useState } from 'react'
 import { NavBar } from '../../components/nav-bar/nav-bar-comp'
-const BASE_SERVER_URL = 'http://localhost:3333'
-
+const BASE_SERVER_URL = import.meta.env.VITE_BASE_SERVER_URL
 
 export const Home = () => {
   return (
