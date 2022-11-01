@@ -39,12 +39,15 @@ const RenderProducts = () => {
   useEffect(() => {
     axios.get(`${BASE_SERVER_URL}/products`)
       .then(response => {
-        console.log(response.data.response)
         setProducts(response.data.response)
       })
-      .catch((response) => {
-        console.log(response)
-        setProducts([])
+      .catch(() => {
+        setProducts([
+          { description: 'Smartphone', price: 'R$ 1.000'},
+          { description: 'Furadeira', price: 'R$ 300'},
+          { description: 'SmartTv', price: 'R$ 1.200'},
+          { description: 'Geladeira', price: 'R$ 1.000'}
+        ])
       })
   }, [])
 
@@ -74,7 +77,7 @@ const RenderProducts = () => {
                       <Avatar
                         size={'lg'}
                         src={
-                          '/user-placeholder.png'
+                          '/vite.svg'
                         }
                       />
                     </StackItem>
