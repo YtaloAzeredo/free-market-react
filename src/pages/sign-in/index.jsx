@@ -96,7 +96,7 @@ const LoginForm = () => {
           <Checkbox>Lembrar de mim</Checkbox>
         </Box>
 
-        <a href='/home'>
+        <a href='home'>
           <Button colorScheme={VARIANT_COLOR} width='full' mt={4}>
             Entrar na plataforma
           </Button>

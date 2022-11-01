@@ -24,7 +24,7 @@ export const SignInMenu = () => {
               size={'sm'}
               mr={4}
             >
-              <a href='/signin'>Entrar</a>
+              <a href='signin'>Entrar</a>
             </Button>
             <Menu>
               <MenuButton
@@ -36,7 +36,7 @@ export const SignInMenu = () => {
                 <Avatar
                   size={'sm'}
                   src={
-                    '/user-placeholder.png'
+                    '/vite.svg'
                   }
                 />
               </MenuButton>

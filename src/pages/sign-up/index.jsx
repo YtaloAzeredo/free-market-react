@@ -132,7 +132,7 @@ const LoginForm = () => {
         </FormControl>
 
 
-        <a href='/home'>
+        <a href='home'>
           <Button colorScheme={VARIANT_COLOR} width='full' mt={8}>
             Confirmar cadastro
           </Button>
