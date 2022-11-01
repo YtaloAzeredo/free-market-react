@@ -71,7 +71,7 @@ export const NavBar = () => {
           onClick={isOpen ? onClose : onOpen}
         />
 
-        <Box ml={40}> <img src="/vite.svg" /></Box>
+        <Box ml={40}> <img width='35px' height='35px' src="/vite.svg" /></Box>
 
         <Box>
           <Box mt={2}>
