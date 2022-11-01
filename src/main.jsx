@@ -6,7 +6,7 @@ import { MyRoutes } from './routes'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ChakraProvider>
-    <MyRoutes/>
-    </ChakraProvider>    
+      <MyRoutes />
+    </ChakraProvider>
   </React.StrictMode>
 )
