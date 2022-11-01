@@ -5,12 +5,12 @@ import { Home } from '../pages/home'
 
 export const MyRoutes = () => {
   return (
-      <BrowserRouter>    
-        <Switch>
-          <Route exact path='/'><SignIn/></Route>
-          <Route path='/home'><Home/></Route>
-          <Route path='/signup'><SignUp/></Route>
-        </Switch>
-      </BrowserRouter>
+    <BrowserRouter>
+      <Switch>
+        <Route exact path='/'><SignIn /></Route>
+        <Route path='/home'><Home /></Route>
+        <Route path='/signup'><SignUp /></Route>
+      </Switch>
+    </BrowserRouter>
   )
 }
